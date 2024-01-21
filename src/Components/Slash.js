@@ -12,8 +12,8 @@ const Slash = () => {
         <h4 className='text-2xl mb-4 '>Watch anywhere. Cancel anytime.</h4>
         <h3 className='text-2xl '>Ready to watch? Enter your email to create or restart your membership.</h3>
         
-        <input type="email" required placeholder='Email Address' className='text-black px-32 py-4 bg-grey rounded-lg border-2  outline-none border-red-600 text-left backdrop-invert-0 '/>
-        <Link to="/ragister"> <button className='m-2 px-12 py-4  text-white  font-bold rounded-lg bg-red-600 text-xl'>Get Started </button></Link>
+        <input type="email" required placeholder='Email Address' className='text-white w-6/12 p-4 bg-black bg-opacity-50 rounded-lg outline-none border-2 border-gray-500  '/>
+        <Link to="/signin"> <button className='p-4 rounded-md m-2 w-3/12 text-white  font-bold bg-red-600 text-xl'>Get Started </button></Link>
       </div>
       
     </div>
